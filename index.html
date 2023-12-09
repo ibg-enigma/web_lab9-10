@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lab5-6 Variant 5</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <div class="content">
+            <h2>Login</h2>
+            <p>Welcome, please enter the folling to continue.<br>
+                If you have previously Login with us. <a class="click" href="#">click here</a>
+            </p>
+            <form class="auth-form">
+                <label for="login">User Name</label>
+                <input type="text" id="login" name="user_name">
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="user_password">
+                <p>
+                    <button type="button" class="btn" onclick="logIn(event)" id="logIn_btn">Login</button>
+                    <button type="button" class="btn">Create an Account</button>
+                </p>
+            </form>
+            <p><a class="forgot" href="#">Forgot Password ?</a></p>
+        </div>
+    </body>
+</html>
